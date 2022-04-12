@@ -1,8 +1,23 @@
 {
   "dependencies": {
     "axios": "^0.26.1",
+    "body-parser": "^1.20.0",
     "crypto-js": "^4.1.1",
+    "dotenv": "^16.0.0",
+    "express": "^4.17.3",
     "moment": "^2.29.2",
     "qs": "^6.10.3"
+  },
+  "name": "zalopay-api",
+  "version": "1.0.0",
+  "main": "app",
+  "repository": "https://github.com/tienhung164/zalopay-api.git",
+  "author": "tienhung164 <hungvt164@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "start":"nodemon app"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15"
   }
 }

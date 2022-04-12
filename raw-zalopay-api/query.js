@@ -12,7 +12,7 @@ const config = {
 
 let postData = {
     app_id: config.app_id,
-    app_trans_id: "220411_42136", // Input your app_trans_id
+    app_trans_id: "220411_23688", // Input your app_trans_id
 }
 
 let data = postData.app_id + "|" + postData.app_trans_id + "|" + config.key1; // appid|app_trans_id|key1

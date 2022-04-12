@@ -26,11 +26,11 @@ const order = {
     amount: 50000,
     description: `Pallgree Shop - Payment for the order #${transID}`,
     bank_code: "zalopayapp",
+    callback_url: "https://www.instagram.com/pallgree.shop/"
 };
 
 // appid|app_trans_id|appuser|amount|apptime|embeddata|item
 const data = config.app_id + "|" + order.app_trans_id + "|" + order.app_user + "|" + order.amount + "|" + order.app_time + "|" + order.embed_data + "|" + order.item;
-const data2= config.app_id+"|"+order.app_trans_id+"|"+config.key1;
 
 order.mac = CryptoJS.HmacSHA256(data, config.key1).toString();
 
